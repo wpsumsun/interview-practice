@@ -9,6 +9,7 @@ Array.prototype.reduce = function(callback, initialValue) {
     let startIndex = 0;
 
     if (arguments.length < 2) {
+        // 空数组且没有初始值时抛出错误
         if (length === 0) {
             throw new TypeError('Reduce of empty array with no initial value');
         }
