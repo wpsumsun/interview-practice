@@ -17,7 +17,7 @@ function combinationSum(candidates: number[], target: number): number[][] {
         }
         for (let j = i; j < candidates.length; j++) {
             path.push(candidates[j]);
-            dfs(i, s - candidates[j]);
+            dfs(j, s - candidates[j]);
             path.pop();
         }
     }  
