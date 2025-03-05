@@ -47,7 +47,7 @@ async function sum2(arr: number[]): Promise<number> {
     );
 
     // 递归处理结果，直到只剩一个数
-    return results.length === 1 ? results[0] : sum(results);
+    return results.length === 1 ? results[0] : sum2(results);
 }
 
 /*

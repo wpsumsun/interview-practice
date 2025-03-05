@@ -282,7 +282,7 @@ class mPromise {
      * @returns {Promise} 返回一个新的 Promise
      */
     catch(onRejected) {
-        return this.then(undefined, onReje---cted);
+        return this.then(undefined, onRejected);
     }
     /**
      * finally 方法用于指定不管 Promise 对象最后状态如何，都会执行的操作
