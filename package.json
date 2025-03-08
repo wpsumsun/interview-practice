@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/wpsumsun/interview-practice#readme",
   "dependencies": {
-    "@type-challenges/utils": "^0.1.1"
+    "@type-challenges/utils": "^0.1.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9"
   }
 }
